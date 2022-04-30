@@ -1,0 +1,27 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "mysql",
+            "database": "db",
+            "username": "root",
+            "password": ""
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 7432,
+            "driver": "PostgreSQL",
+            "name": "postgresql",
+            "database": "bookstore",
+            "username": "postgres",
+            "password": ""
+        }
+    ]
+}
